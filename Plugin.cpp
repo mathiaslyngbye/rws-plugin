@@ -10,9 +10,8 @@
 // standard includes
 #include <boost/bind.hpp>
 
-// Note: Icon relative to robwork wd (i.e. workcell)
 Plugin::Plugin():
-    rws::RobWorkStudioPlugin("Plugin", QIcon("../plugin.png"))
+    rws::RobWorkStudioPlugin("Plugin", QIcon(":/plugin.png"))
 {
     QWidget* base = new QWidget(this);
     QGridLayout* pLayout = new QGridLayout(base);
