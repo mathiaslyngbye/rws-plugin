@@ -1,3 +1,5 @@
 *.user
+*/rwsettings.xml
+*/RobWorkStudio.ini
 libs/
 build/
