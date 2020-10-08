@@ -13,5 +13,7 @@ plugin. Make both scripts executable (``chmod +x``) as needed.
 In order for it to work smoothly with QtCreator, go to 
 ``Project > Build & Run > Run`` and specify the following:
 
+| Setting | Argument |
+|---|---|
 | Exectuable | %{sourceDir}/start.sh |
 | Working directory | %{sourceDir} |
