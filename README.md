@@ -14,5 +14,4 @@ In order for it to work smoothly with QtCreator, go to
 ``Project > Build & Run > Run`` and specify the following:
 
 | Exectuable | %{sourceDir}/start.sh |
-|---|---|
 | Working directory | %{sourceDir} |
